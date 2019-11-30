@@ -1,0 +1,104 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  CreativePatchingLoader (CreativeCore_v1.9.68_mc1.12.2.jar)
+  MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  McLib core mod (mclib-1.0.3-1.12.2.jar)
+  AstralCore (astralsorcery-1.12.2-1.10.20.jar)
+Contact their authors BEFORE contacting forge
+
+// I blame Dinnerbone.
+
+Time: 10/31/19 12:49 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [2.3.557,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod eplus (Enchanting Plus) requires [bookshelf@[2.3.557,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.4.0-142-generic
+	Java Version: 1.8.0_222, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 844828584 bytes (805 MB) / 977272832 bytes (932 MB) up to 977272832 bytes (932 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 43 mods loaded, 42 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version               | Source                                        | Signature |
+	|:----- |:----------------- |:--------------------- |:--------------------------------------------- |:--------- |
+	| L     | minecraft         | 1.12.2                | minecraft.jar                                 | None      |
+	| L     | mcp               | 9.42                  | minecraft.jar                                 | None      |
+	| L     | FML               | 8.0.99.99             | custom.jar                                    | None      |
+	| L     | forge             | 14.23.5.2847          | custom.jar                                    | None      |
+	| L     | creativecoredummy | 1.0.0                 | minecraft.jar                                 | None      |
+	| UD    | mclib_core        | 1.0.3                 | minecraft.jar                                 | None      |
+	| L     | securitycraft     | v1.8.13.1             | [1.12.2]+SecurityCraft+v1.8.13.1.jar          | None      |
+	| L     | deconstruction    | 3.0.4                 | [MC1.12.2]DeconTable-3.0.4.jar                | None      |
+	| L     | astralsorcery     | 1.10.20               | astralsorcery-1.12.2-1.10.20.jar              | None      |
+	| L     | baubles           | 1.5.2                 | Baubles-1.12-1.5.2.jar                        | None      |
+	| L     | biomesoplenty     | 7.0.1.2441            | BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar | None      |
+	| L     | bookworm          | 1.12.2-2.3.0          | bookworm-1.12.2-2.3.0.jar                     | None      |
+	| L     | chisel            | MC1.12.2-1.0.1.44     | Chisel-MC1.12.2-1.0.1.44.jar                  | None      |
+	| L     | chococraft        | 0.9.8.0               | chococraft_1.12.2-0.9.8.0.jar                 | None      |
+	| L     | creativecore      | 1.9.9                 | CreativeCore_v1.9.68_mc1.12.2.jar             | None      |
+	| L     | props             | 2.6.3                 | Decocraft-2.6.3_1.12.2.jar                    | None      |
+	| L     | dynamictrees      | 1.12.2-0.9.5          | DynamicTrees-1.12.2-0.9.5.jar                 | None      |
+	| L     | emoticons         | 0.3                   | emoticons-0.3-1.12.2-dist.jar                 | None      |
+	| L     | eplus             | 5.0.176               | EnchantingPlus-1.12.2-5.0.176.jar             | None      |
+	| L     | fastfurnace       | 1.3.1                 | FastFurnace-1.12.2-1.3.1.jar                  | None      |
+	| L     | ferdinandsflowers | 1.10.4.1              | Ferdinand's+Flowers-1.12.x-1.10.4.1.jar       | None      |
+	| L     | fossil            | 8.0.3                 | fossilsarcheology-8.0.3.jar                   | None      |
+	| L     | ftblib            | 5.4.3.141             | FTBLib-5.4.3.141.jar                          | None      |
+	| L     | ftbutilities      | 5.4.0.107             | FTBUtilities-5.4.0.107.jar                    | None      |
+	| L     | gottschcore       | 1.8.0                 | GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar | None      |
+	| L     | waila             | 1.8.26                | Hwyla-1.8.26-B41_1.12.2.jar                   | None      |
+	| L     | ichunutil         | 7.2.2                 | iChunUtil-1.12.2-7.2.2.jar                    | None      |
+	| L     | infernalmobs      | 1.7.6                 | InfernalMobs-1.12.2.jar                       | None      |
+	| L     | jei               | 4.15.0.291            | jei_1.12.2-4.15.0.291.jar                     | None      |
+	| L     | journeymap        | 1.12.2-5.5.5          | journeymap-1.12.2-5.5.5.jar                   | None      |
+	| L     | malisiscore       | 1.12.2-6.5.1-SNAPSHOT | malisiscore-1.12.2-6.5.1.jar                  | None      |
+	| L     | malisisdoors      | 1.12.2-7.3.0          | malisisdoors-1.12.2-7.3.0.jar                 | None      |
+	| L     | mca               | 6.0.1                 | MCA-1.12.2-6.0.1-universal.jar                | None      |
+	| L     | mclib             | 1.0.3                 | mclib-1.0.3-1.12.2.jar                        | None      |
+	| L     | mmm               | 1.0.8                 | mutatedmobs-1.0.8.jar                         | None      |
+	| L     | playerrevive      | 1.0                   | PlayerRevive_v1.2.26_mc1.12.2.jar             | None      |
+	| L     | playerskins       | 1.0.4                 | playerskin-1.12.2-1.0.5.jar                   | None      |
+	| L     | rustic            | 1.1.1                 | rustic-1.1.1.jar                              | None      |
+	| L     | spartanshields    | 1.5.4                 | SpartanShields-1.12.2-1.5.4.jar               | None      |
+	| L     | tombstone         | 3.5.8                 | tombstone-3.5.8-1.12.2.jar                    | None      |
+	| L     | treasure2         | 1.5.1                 | Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar   | None      |
+	| L     | zawa              | 1.12.2-1.7.0          | zawa-1.12.2-1.7.0.jar                         | None      |
+	| L     | llibrary          | 1.7.19                | llibrary-1.7.19-1.12.2.jar                    | None      |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+CreativePatchingLoader (CreativeCore_v1.9.68_mc1.12.2.jar)
+  
+MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  
+McLib core mod (mclib-1.0.3-1.12.2.jar)
+  mchorse.mclib.core.McLibCMClassTransformer
+AstralCore (astralsorcery-1.12.2-1.10.20.jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

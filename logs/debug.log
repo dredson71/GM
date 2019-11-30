@@ -1,0 +1,1752 @@
+[22:38:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:38:28] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[22:38:28] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[22:38:28] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_222, running on Linux:amd64:4.4.0-142-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[22:38:28] [main/DEBUG] [FML]: Java classpath at launch is:
+[22:38:28] [main/DEBUG] [FML]:     /home/admin1/multicraft/servers/server73/custom.jar
+[22:38:28] [main/DEBUG] [FML]: Java library path at launch is:
+[22:38:28] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
+[22:38:28] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu/jni
+[22:38:28] [main/DEBUG] [FML]:     /lib/x86_64-linux-gnu
+[22:38:28] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu
+[22:38:28] [main/DEBUG] [FML]:     /usr/lib/jni
+[22:38:28] [main/DEBUG] [FML]:     /lib
+[22:38:28] [main/DEBUG] [FML]:     /usr/lib
+[22:38:28] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /home/admin1/multicraft/servers/server73/libraries
+[22:38:28] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
+[22:38:28] [main/DEBUG] [FML]: Examining file: iChunUtil-1.12.2-7.2.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: mclib-1.0.3-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: zawa-1.12.2-1.7.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: OptiFine_1.12.2_HD_U_E3.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: llibrary-1.7.19-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Found existing ContainedDep llibrary-core-1.0.11-1.12.2.jar(net.ilexiconn:llibrary-core:1.0.11-1.12.2) from /home/admin1/multicraft/servers/server73/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar extracted to ./mods/llibrary-1.7.19-1.12.2.jar, skipping extraction
+[22:38:28] [main/DEBUG] [FML]: Examining file: llibrary-core-1.0.11-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Making maven link for net.ilexiconn:llibrary:1.7.19-1.12.2 in memory to /home/admin1/multicraft/servers/server73/./mods/llibrary-1.7.19-1.12.2.jar.
+[22:38:28] [main/DEBUG] [FML]: Examining file: DecoCraft-Mod-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: tombstone-3.5.8-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: Ferdinand's+Flowers-1.12.x-1.10.4.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: Bookshelf-1.12.2-2.3.585.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: emoticons-0.3-1.12.2-dist.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: backpacks+1.12.2+-+3.5.8.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: CreativeCore_v1.9.68_mc1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: bookworm-1.12.2-2.3.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: ElevatorMod-1.12.2-1.4.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: Hwyla-1.8.26-B41_1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: PlayerRevive_v1.2.26_mc1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: DynamicTrees-1.12.2-0.9.5.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: Neat+1.4-17.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: rustic-1.1.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: InfernalMobs-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: fossilsarcheology-8.0.3.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: CTM-MC1.12.2-1.0.0.29.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: mutatedmobs-1.0.8.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: FastFurnace-1.12.2-1.3.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: FTBUtilities-5.4.0.107.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: SpartanShields-1.12.2-1.5.4.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: jei_1.12.2-4.15.0.291.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: chococraft_1.12.2-0.9.8.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: VanillaPlusTools-1.2.jar
+[22:38:28] [main/DEBUG] [FML]: Making maven link for com.SuperTools:SuperTools:1.12.2-null in memory to /home/admin1/multicraft/servers/server73/./mods/VanillaPlusTools-1.2.jar.
+[22:38:28] [main/DEBUG] [FML]: Examining file: DynamicLights-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: [MC1.12.2]DeconTable-3.0.4.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: FTBLib-5.4.3.141.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: MobDismemberment-1.12.2-7.0.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: MCA-1.12.2-6.0.1-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: [1.12.2]+SecurityCraft+v1.8.13.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: malisisdoors-1.12.2-7.3.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: journeymap-1.12.2-5.5.5.jar
+[22:38:28] [main/DEBUG] [FML]: Examining file: PTRLib-1.0.4.jar
+[22:38:28] [main/DEBUG] [FML]: File already proccessed /home/admin1/multicraft/servers/server73/./mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar, Skipping
+[22:38:28] [main/DEBUG] [FML]: File already proccessed /home/admin1/multicraft/servers/server73/./mods/llibrary-1.7.19-1.12.2.jar, Skipping
+[22:38:28] [main/DEBUG] [FML]: File already proccessed /home/admin1/multicraft/servers/server73/./mods/VanillaPlusTools-1.2.jar, Skipping
+[22:38:28] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[22:38:28] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[22:38:28] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[22:38:28] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[22:38:28] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[22:38:28] [main/DEBUG] [FML]: Discovering coremods
+[22:38:28] [main/INFO] [FML]: Searching /home/admin1/multicraft/servers/server73/./mods for mods
+[22:38:28] [main/DEBUG] [FML]:   Adding iChunUtil-1.12.2-7.2.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding mclib-1.0.3-1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding zawa-1.12.2-1.7.0.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding OptiFine_1.12.2_HD_U_E3.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding llibrary-1.7.19-1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding DecoCraft-Mod-1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding tombstone-3.5.8-1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding Ferdinand's+Flowers-1.12.x-1.10.4.1.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding CodeChickenLib-1.12.2-3.2.3.358-universal.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding Bookshelf-1.12.2-2.3.585.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding emoticons-0.3-1.12.2-dist.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding backpacks+1.12.2+-+3.5.8.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding CreativeCore_v1.9.68_mc1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding bookworm-1.12.2-2.3.0.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding ElevatorMod-1.12.2-1.4.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding PlayerRevive_v1.2.26_mc1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding DynamicTrees-1.12.2-0.9.5.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding Neat+1.4-17.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding rustic-1.1.1.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding InfernalMobs-1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding fossilsarcheology-8.0.3.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding CTM-MC1.12.2-1.0.0.29.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding mutatedmobs-1.0.8.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding FastFurnace-1.12.2-1.3.1.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding FTBUtilities-5.4.0.107.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding SpartanShields-1.12.2-1.5.4.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding jei_1.12.2-4.15.0.291.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding chococraft_1.12.2-0.9.8.0.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding VanillaPlusTools-1.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding DynamicLights-1.12.2.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding [MC1.12.2]DeconTable-3.0.4.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding FTBLib-5.4.3.141.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding MobDismemberment-1.12.2-7.0.0.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding MCA-1.12.2-6.0.1-universal.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding malisiscore-1.12.2-6.5.1.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding [1.12.2]+SecurityCraft+v1.8.13.1.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding malisisdoors-1.12.2-7.3.0.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding journeymap-1.12.2-5.5.5.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]:   Adding PTRLib-1.0.4.jar to the mod list
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy [1.12.2]+SecurityCraft+v1.8.13.1.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in [1.12.2]+SecurityCraft+v1.8.13.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy [MC1.12.2]DeconTable-3.0.4.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in [MC1.12.2]DeconTable-3.0.4.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy backpacks+1.12.2+-+3.5.8.jar
+[22:38:28] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in backpacks+1.12.2+-+3.5.8.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class BCModPlugin
+[22:38:28] [main/DEBUG] [FML]: The coremod brad16840.core.BCModPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[22:38:28] [main/WARN] [FML]: The coremod BCModPlugin (brad16840.core.BCModPlugin) is not signed!
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod BCModPlugin
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy Bookshelf-1.12.2-2.3.585.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in Bookshelf-1.12.2-2.3.585.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy bookworm-1.12.2-2.3.0.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in bookworm-1.12.2-2.3.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy chococraft_1.12.2-0.9.8.0.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in chococraft_1.12.2-0.9.8.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy CreativeCore_v1.9.68_mc1.12.2.jar
+[22:38:28] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.9.68_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class CreativePatchingLoader
+[22:38:28] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:38:28] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod CreativePatchingLoader
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy CTM-MC1.12.2-1.0.0.29.jar
+[22:38:28] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.0.29.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class CTMCorePlugin
+[22:38:28] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:38:28] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod CTMCorePlugin
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy DecoCraft-Mod-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in DecoCraft-Mod-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy DynamicLights-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Mod DynamicLights-1.12.2.jar has ModSide meta-inf value CLIENT, and we're SERVER It will be ignored
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy DynamicTrees-1.12.2-0.9.5.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in DynamicTrees-1.12.2-0.9.5.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy ElevatorMod-1.12.2-1.4.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in ElevatorMod-1.12.2-1.4.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy emoticons-0.3-1.12.2-dist.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in emoticons-0.3-1.12.2-dist.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy FastFurnace-1.12.2-1.3.1.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in FastFurnace-1.12.2-1.3.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy Ferdinand's+Flowers-1.12.x-1.10.4.1.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in Ferdinand's+Flowers-1.12.x-1.10.4.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy fossilsarcheology-8.0.3.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in fossilsarcheology-8.0.3.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy FTBLib-5.4.3.141.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in FTBLib-5.4.3.141.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy FTBUtilities-5.4.0.107.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in FTBUtilities-5.4.0.107.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy Hwyla-1.8.26-B41_1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in Hwyla-1.8.26-B41_1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy iChunUtil-1.12.2-7.2.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in iChunUtil-1.12.2-7.2.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy InfernalMobs-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in InfernalMobs-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy jei_1.12.2-4.15.0.291.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in jei_1.12.2-4.15.0.291.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy journeymap-1.12.2-5.5.5.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in journeymap-1.12.2-5.5.5.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy malisisdoors-1.12.2-7.3.0.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in malisisdoors-1.12.2-7.3.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy MCA-1.12.2-6.0.1-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in MCA-1.12.2-6.0.1-universal.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy mclib-1.0.3-1.12.2.jar
+[22:38:28] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in mclib-1.0.3-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class McLibCM
+[22:38:28] [main/TRACE] [FML]: coremod named McLib core mod is loading
+[22:38:28] [main/DEBUG] [FML]: The coremod mchorse.mclib.core.McLibCM requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[22:38:28] [main/WARN] [FML]: The coremod McLib core mod (mchorse.mclib.core.McLibCM) is not signed!
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod McLib core mod
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy MobDismemberment-1.12.2-7.0.0.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in MobDismemberment-1.12.2-7.0.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy mutatedmobs-1.0.8.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in mutatedmobs-1.0.8.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy Neat+1.4-17.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in Neat+1.4-17.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy OptiFine_1.12.2_HD_U_E3.jar
+[22:38:28] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_E3.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy PlayerRevive_v1.2.26_mc1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy PTRLib-1.0.4.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in PTRLib-1.0.4.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy rustic-1.1.1.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in rustic-1.1.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy SpartanShields-1.12.2-1.5.4.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in SpartanShields-1.12.2-1.5.4.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy tombstone-3.5.8-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in tombstone-3.5.8-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy zawa-1.12.2-1.7.0.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in zawa-1.12.2-1.7.0.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy llibrary-core-1.0.11-1.12.2.jar
+[22:38:28] [main/TRACE] [FML]: Adding llibrary-core-1.0.11-1.12.2.jar to the list of known coremods, it will not be examined again
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class LLibraryPlugin
+[22:38:28] [main/TRACE] [FML]: coremod named llibrary is loading
+[22:38:28] [main/DEBUG] [FML]: The coremod net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[22:38:28] [main/DEBUG] [FML]: Found signing certificates for coremod llibrary (net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin)
+[22:38:28] [main/DEBUG] [FML]: Found certificate b9f30a813bee3b9dd5652c460310cfcd54f6b7ec
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod llibrary
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy llibrary-1.7.19-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in llibrary-1.7.19-1.12.2.jar
+[22:38:28] [main/DEBUG] [FML]: Examining for coremod candidacy VanillaPlusTools-1.2.jar
+[22:38:28] [main/DEBUG] [FML]: Not found coremod data in VanillaPlusTools-1.2.jar
+[22:38:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[22:38:28] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@74a14482
+[22:38:28] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar Service=LaunchWrapper Env=SERVER
+[22:38:28] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1
+[22:38:28] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[22:38:28] [main/DEBUG] [mixin]: Mixin platform: primary container is file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/DEBUG] [mixin]: Adding mixin platform agents for container file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFML for file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for malisiscore-1.12.2-6.5.1.jar, attempting force-load
+[22:38:28] [main/DEBUG] [mixin]: Adding malisiscore-1.12.2-6.5.1.jar to reparseable coremod collection
+[22:38:28] [main/DEBUG] [mixin]: malisiscore-1.12.2-6.5.1.jar has core plugin net.malisis.core.asm.MalisisCorePlugin. Injecting it into FML for co-initialisation:
+[22:38:28] [main/DEBUG] [FML]: Instantiating coremod class MalisisCorePlugin
+[22:38:28] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:38:28] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[22:38:28] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[22:38:28] [main/DEBUG] [FML]: Enqueued coremod MalisisCorePlugin
+[22:38:28] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/custom.jar for mixin tweaker
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/backpacks+1.12.2+-+3.5.8.jar for mixin tweaker
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/CreativeCore_v1.9.68_mc1.12.2.jar for mixin tweaker
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/CTM-MC1.12.2-1.0.0.29.jar for mixin tweaker
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/mclib-1.0.3-1.12.2.jar for mixin tweaker
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/OptiFine_1.12.2_HD_U_E3.jar for mixin tweaker
+[22:38:28] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar for mixin tweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:38:28] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[22:38:28] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[22:38:28] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[22:38:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:28] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[22:38:28] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[22:38:29] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[22:38:29] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[22:38:29] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[22:38:29] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[22:38:29] [main/DEBUG] [FML]: Injection complete
+[22:38:29] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[22:38:29] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[22:38:30] [main/DEBUG] [FML]: Read 1145 binary patches
+[22:38:30] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[22:38:30] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:38:30] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[22:38:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:30] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[22:38:30] [main/DEBUG] [FML]: Injection complete
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[22:38:30] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[22:38:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:30] [main/DEBUG] [FML]: Injecting coremod CreativePatchingLoader \{com.creativemd.creativecore.core.CreativePatchingLoader\} class transformers
+[22:38:30] [main/DEBUG] [FML]: Injection complete
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin for CreativePatchingLoader \{com.creativemd.creativecore.core.CreativePatchingLoader\}
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin CreativePatchingLoader
+[22:38:30] [main/DEBUG] [FML]: Coremod plugin class CreativePatchingLoader run successfully
+[22:38:30] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[22:38:30] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar]
+[22:38:30] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar]
+[22:38:30] [main/DEBUG] [mixin]: Registering mixin config: mixins.malisiscore.core.json
+[22:38:30] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar]
+[22:38:30] [main/DEBUG] [mixin]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[22:38:30] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@13d186db
+[22:38:30] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar]
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/custom.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/backpacks+1.12.2+-+3.5.8.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/CreativeCore_v1.9.68_mc1.12.2.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/CTM-MC1.12.2-1.0.0.29.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/mclib-1.0.3-1.12.2.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/OptiFine_1.12.2_HD_U_E3.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning file:/home/admin1/multicraft/servers/server73/./mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: Scanning asmgen:/ for mixin tweaker
+[22:38:30] [main/DEBUG] [mixin]: inject() running with 1 agents
+[22:38:30] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFML:file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar]
+[22:38:30] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance MalisisCorePlugin {[]} for file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar
+[22:38:30] [main/DEBUG] [FML]: Injecting coremod MalisisCorePlugin \{net.malisis.core.asm.MalisisCorePlugin\} class transformers
+[22:38:30] [main/DEBUG] [FML]: Injection complete
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin for MalisisCorePlugin \{net.malisis.core.asm.MalisisCorePlugin\}
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin MalisisCorePlugin
+[22:38:30] [main/DEBUG] [FML]: Coremod plugin class MalisisCorePlugin run successfully
+[22:38:30] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:file:/home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar]
+[22:38:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:30] [main/DEBUG] [FML]: Injecting coremod McLib core mod \{mchorse.mclib.core.McLibCM\} class transformers
+[22:38:30] [main/TRACE] [FML]: Registering transformer mchorse.mclib.core.McLibCMClassTransformer
+[22:38:30] [main/DEBUG] [FML]: Injection complete
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin for McLib core mod \{mchorse.mclib.core.McLibCM\}
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin McLib core mod
+[22:38:30] [main/DEBUG] [FML]: Coremod plugin class McLibCM run successfully
+[22:38:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:30] [main/DEBUG] [FML]: Injecting coremod BCModPlugin \{brad16840.core.BCModPlugin\} class transformers
+[22:38:30] [main/TRACE] [FML]: Registering transformer brad16840.core.ClassTransformer
+[22:38:30] [main/DEBUG] [FML]: Injection complete
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin for BCModPlugin \{brad16840.core.BCModPlugin\}
+[22:38:30] [main/DEBUG] [FML]: Running coremod plugin BCModPlugin
+[22:38:30] [main/DEBUG] [FML]: Coremod plugin class BCModPlugin run successfully
+[22:38:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:38:30] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[22:38:30] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file ./mods/ElevatorMod-1.12.2-1.4.2.jar!META-INF/elevator_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 50 rules from AccessTransformer mod jar file ./mods/Bookshelf-1.12.2-2.3.585.jar!META-INF/bookshelf_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 46 rules from AccessTransformer mod jar file ./mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar!META-INF/ccl_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 14 rules from AccessTransformer mod jar file ./mods/malisiscore-1.12.2-6.5.1.jar!META-INF/malisiscore_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file ./mods/CTM-MC1.12.2-1.0.0.29.jar!META-INF/ctm_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file ./mods/chococraft_1.12.2-0.9.8.0.jar!META-INF/chococraft_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file ./mods/DecoCraft-Mod-1.12.2.jar!META-INF/decocraft_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file ./mods/tombstone-3.5.8-1.12.2.jar!META-INF/tombstone_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file ./mods/FastFurnace-1.12.2-1.3.1.jar!META-INF/fastfurnace_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 18 rules from AccessTransformer mod jar file ./mods/FTBLib-5.4.3.141.jar!META-INF/ftblib_at.cfg
+
+[22:38:30] [main/DEBUG] [FML]: Loaded 119 rules from AccessTransformer mod jar file ./mods/iChunUtil-1.12.2-7.2.2.jar!META-INF/iChunUtil_at.cfg
+
+[22:38:31] [main/DEBUG] [FML]: Loaded 11 rules from AccessTransformer mod jar file ./mods/llibrary-1.7.19-1.12.2.jar!META-INF/llibrary_at.cfg
+
+[22:38:31] [main/DEBUG] [FML]: Loaded 3 rules from AccessTransformer mod jar file ./mods/fossilsarcheology-8.0.3.jar!META-INF/fossil_at.cfg
+
+[22:38:31] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file ./mods/jei_1.12.2-4.15.0.291.jar!META-INF/jei_at.cfg
+
+[22:38:31] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file ./mods/VanillaPlusTools-1.2.jar!META-INF/supertools_at.cfg
+
+[22:38:31] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file ./mods/journeymap-1.12.2-5.5.5.jar!META-INF/journeymap_at.cfg
+
+[22:38:31] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file ./mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar!META-INF/biomesoplenty_at.cfg
+
+[22:38:31] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #2
+[22:38:31] [main/DEBUG] [FML]: Validating minecraft
+[22:38:31] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[INIT]
+[22:38:31] [main/DEBUG] [FML]: Minecraft validated, launching...
+[22:38:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:31] [main/DEBUG] [FML]: Injecting coremod llibrary \{net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin\} class transformers
+[22:38:31] [main/TRACE] [FML]: Registering transformer net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+[22:38:31] [main/TRACE] [FML]: Registering transformer net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found runtime patcher net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[22:38:31] [main/DEBUG] [FML]: Injection complete
+[22:38:31] [main/DEBUG] [FML]: Running coremod plugin for llibrary \{net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin\}
+[22:38:31] [main/DEBUG] [FML]: Running coremod plugin llibrary
+[22:38:31] [main/DEBUG] [FML]: Coremod plugin class LLibraryPlugin run successfully
+[22:38:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:31] [main/DEBUG] [FML]: Injecting coremod CTMCorePlugin \{team.chisel.ctm.client.asm.CTMCorePlugin\} class transformers
+[22:38:31] [main/TRACE] [FML]: Registering transformer team.chisel.ctm.client.asm.CTMTransformer
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for java/lang/String/format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/minecraft/client/model/ModelBiped/<init>(FZ)V
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/minecraft/client/renderer/entity/RenderPlayer/<init>(Lnet/minecraft/client/renderer/entity/RenderManager;Z)V
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/minecraftforge/client/ForgeHooksClient/handleCameraTransforms(Lnet/minecraft/client/renderer/block/model/IBakedModel;Lnet/minecraft/client/renderer/block/model/ItemCameraTransforms$TransformType;Z)Lnet/minecraft/client/renderer/block/model/IBakedModel;
+[22:38:31] [main/DEBUG] [FML]: Injection complete
+[22:38:31] [main/DEBUG] [FML]: Running coremod plugin for CTMCorePlugin \{team.chisel.ctm.client.asm.CTMCorePlugin\}
+[22:38:31] [main/DEBUG] [FML]: Running coremod plugin CTMCorePlugin
+[22:38:31] [main/DEBUG] [FML]: Coremod plugin class CTMCorePlugin run successfully
+[22:38:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:38:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[22:38:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:38:31] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[22:38:31] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[22:38:31] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #3
+[22:38:31] [main/DEBUG] [LLibrary Core]: Patching class net/minecraft/server/MinecraftServer
+[22:38:31] [main/DEBUG] [LLibrary Core]:    Patching method run()V
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:31] [main/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:31] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[22:38:31] [main/DEBUG] [mixin]: Selecting config mixins.malisiscore.core.json
+[22:38:31] [main/DEBUG] [mixin]: Preparing mixins.malisiscore.core.json (10)
+[22:38:31] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[22:38:31] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[22:38:31] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.brad16840.core.ClassTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[22:38:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[22:38:31] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[22:38:31] [main/DEBUG] [mixin]: Transformer delegation list created with 16 entries
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/World to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/WorldServer to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/Chunk to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/ItemBlock to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/network/NetHandlerPlayServer to metadata cache
+[22:38:31] [main/DEBUG] [mixin]: Prepared 6 mixins in 0.321 sec (53.5ms avg) (0ms load, 94ms transform, 0ms plugin)
+[22:38:31] [main/DEBUG] [mixin]: Mixing MixinClientNotif$MixinWorld from mixins.malisiscore.core.json into net.minecraft.world.World
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/clientnotif/ClientNotificationManager to metadata cache
+[22:38:31] [main/DEBUG] [mixin]: Mixing MixinChunkCollision$MixinWorld from mixins.malisiscore.core.json into net.minecraft.world.World
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/Point to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for org/apache/commons/lang3/tuple/Pair to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for java/io/Serializable to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for java/lang/Comparable to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for java/util/Map$Entry to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/chunkcollision/ChunkCollision to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/BlockPos to metadata cache
+[22:38:31] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:38:31] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/Block to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/Vec3d to metadata cache
+[22:38:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/RayTraceResult to metadata cache
+[22:38:31] [main/DEBUG] [mixin]: Mixing MixinClientNotif$MixinWorldServer from mixins.malisiscore.core.json into net.minecraft.world.WorldServer
+[22:38:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:38:32] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:38:32] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:38:33] [main/DEBUG] [mixin]: Mixing MixinChunkCollision$MixinItemBlock from mixins.malisiscore.core.json into net.minecraft.item.ItemBlock
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/Item to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/registries/IForgeRegistryEntry$Impl to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/EnumActionResult to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/EnumHand to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/EnumFacing to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/state/IBlockState to metadata cache
+[22:38:33] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/ItemStack to metadata cache
+[22:38:34] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[22:38:34] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[22:38:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[22:38:34] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[22:38:34] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:38:35] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:38:35] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:38:35] [Server thread/DEBUG] [FML]: File /home/admin1/multicraft/servers/server73/config/injectedDependencies.json not found. No dependencies injected
+[22:38:35] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.creativemd.creativecore.core.CreativeCoreDummy, mchorse.mclib.core.McLibCMInfo]
+[22:38:35] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[22:38:35] [Server thread/DEBUG] [FML]: Found a minecraft related file at /home/admin1/multicraft/servers/server73/custom.jar, examining for mod candidates
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/backpacks+1.12.2+-+3.5.8.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/CreativeCore_v1.9.68_mc1.12.2.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/CTM-MC1.12.2-1.0.0.29.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/malisiscore-1.12.2-6.5.1.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/mclib-1.0.3-1.12.2.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/OptiFine_1.12.2_HD_U_E3.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping known library file /home/admin1/multicraft/servers/server73/./mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[22:38:35] [Server thread/INFO] [FML]: Searching /home/admin1/multicraft/servers/server73/./mods for mods
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding iChunUtil-1.12.2-7.2.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding mclib-1.0.3-1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding zawa-1.12.2-1.7.0.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding OptiFine_1.12.2_HD_U_E3.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding llibrary-1.7.19-1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding DecoCraft-Mod-1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding tombstone-3.5.8-1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding Ferdinand's+Flowers-1.12.x-1.10.4.1.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding CodeChickenLib-1.12.2-3.2.3.358-universal.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding Bookshelf-1.12.2-2.3.585.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding emoticons-0.3-1.12.2-dist.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding backpacks+1.12.2+-+3.5.8.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding CreativeCore_v1.9.68_mc1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding bookworm-1.12.2-2.3.0.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding ElevatorMod-1.12.2-1.4.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding PlayerRevive_v1.2.26_mc1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding DynamicTrees-1.12.2-0.9.5.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding Neat+1.4-17.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding rustic-1.1.1.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding InfernalMobs-1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding fossilsarcheology-8.0.3.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding CTM-MC1.12.2-1.0.0.29.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding mutatedmobs-1.0.8.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding FastFurnace-1.12.2-1.3.1.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding FTBUtilities-5.4.0.107.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding SpartanShields-1.12.2-1.5.4.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding jei_1.12.2-4.15.0.291.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding chococraft_1.12.2-0.9.8.0.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding VanillaPlusTools-1.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding DynamicLights-1.12.2.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding [MC1.12.2]DeconTable-3.0.4.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding FTBLib-5.4.3.141.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding MobDismemberment-1.12.2-7.0.0.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding MCA-1.12.2-6.0.1-universal.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding malisiscore-1.12.2-6.5.1.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding [1.12.2]+SecurityCraft+v1.8.13.1.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding malisisdoors-1.12.2-7.3.0.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding journeymap-1.12.2-5.5.5.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]:   Adding PTRLib-1.0.4.jar to the mod list
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file [1.12.2]+SecurityCraft+v1.8.13.1.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file [MC1.12.2]DeconTable-3.0.4.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file backpacks+1.12.2+-+3.5.8.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Bookshelf-1.12.2-2.3.585.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file bookworm-1.12.2-2.3.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file chococraft_1.12.2-0.9.8.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file CreativeCore_v1.9.68_mc1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file CTM-MC1.12.2-1.0.0.29.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file DecoCraft-Mod-1.12.2.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping already parsed coremod or tweaker DynamicLights-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file DynamicTrees-1.12.2-0.9.5.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file ElevatorMod-1.12.2-1.4.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file emoticons-0.3-1.12.2-dist.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file FastFurnace-1.12.2-1.3.1.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Ferdinand's+Flowers-1.12.x-1.10.4.1.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file fossilsarcheology-8.0.3.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file FTBLib-5.4.3.141.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file FTBUtilities-5.4.0.107.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Hwyla-1.8.26-B41_1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file iChunUtil-1.12.2-7.2.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file InfernalMobs-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file jei_1.12.2-4.15.0.291.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file journeymap-1.12.2-5.5.5.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file malisiscore-1.12.2-6.5.1.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file malisisdoors-1.12.2-7.3.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file MCA-1.12.2-6.0.1-universal.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file mclib-1.0.3-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file MobDismemberment-1.12.2-7.0.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file mutatedmobs-1.0.8.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Neat+1.4-17.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping already parsed coremod or tweaker OptiFine_1.12.2_HD_U_E3.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file PlayerRevive_v1.2.26_mc1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file PTRLib-1.0.4.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file rustic-1.1.1.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file SpartanShields-1.12.2-1.5.4.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file tombstone-3.5.8-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file zawa-1.12.2-1.7.0.jar
+[22:38:35] [Server thread/TRACE] [FML]: Skipping already parsed coremod or tweaker llibrary-core-1.0.11-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file llibrary-1.7.19-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file VanillaPlusTools-1.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file custom.jar for potential mods
+[22:38:35] [Server thread/DEBUG] [FML]: The mod container custom.jar appears to be missing an mcmod.info file
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file [1.12.2]+SecurityCraft+v1.8.13.1.jar for potential mods
+[22:38:35] [Server thread/DEBUG] [FML]: The mod container [1.12.2]+SecurityCraft+v1.8.13.1.jar appears to be missing an mcmod.info file
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.geforcemods.securitycraft.SecurityCraft) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for securitycraft: Requirements: [forge@[14.23.3.2694,)] After:[forge@[14.23.3.2694,)] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file [MC1.12.2]DeconTable-3.0.4.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file [MC1.12.2]DeconTable-3.0.4.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (deconstruction.DeconTable) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for deconstruction: Requirements: [] After:[] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Attempting to load the file version.properties from [MC1.12.2]DeconTable-3.0.4.jar to locate a version number for mod deconstruction
+[22:38:35] [Server thread/WARN] [FML]: Mod deconstruction is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.4
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file backpacks+1.12.2+-+3.5.8.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file backpacks+1.12.2+-+3.5.8.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (brad16840.common.Common) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for backpacks16840: Requirements: [] After:[] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (biomesoplenty.core.BiomesOPlenty) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for biomesoplenty: Requirements: [forge@[14.23.5.2768,)] After:[forge@[14.23.5.2768,)] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file Bookshelf-1.12.2-2.3.585.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file Bookshelf-1.12.2-2.3.585.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.bookshelf.Bookshelf) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for bookshelf: Requirements: [] After:[] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file bookworm-1.12.2-2.3.0.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file bookworm-1.12.2-2.3.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.soggymustache.bookworm.BookwormMain) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for bookworm: Requirements: [] After:[] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file chococraft_1.12.2-0.9.8.0.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file chococraft_1.12.2-0.9.8.0.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.slayer5934.chococraft.Chococraft) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for chococraft: Requirements: [] After:[] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file CodeChickenLib-1.12.2-3.2.3.358-universal.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (codechicken.lib.CodeChickenLib) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for codechickenlib: Requirements: [forge@[14.23.4.2718,)] After:[forge@[14.23.4.2718,)] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Attempting to load the file version.properties from CodeChickenLib-1.12.2-3.2.3.358-universal.jar to locate a version number for mod codechickenlib
+[22:38:35] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file CreativeCore_v1.9.68_mc1.12.2.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file CreativeCore_v1.9.68_mc1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.creativemd.creativecore.CreativeCore) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for creativecore: Requirements: [] After:[] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file CTM-MC1.12.2-1.0.0.29.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file CTM-MC1.12.2-1.0.0.29.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (team.chisel.ctm.CTM) - loading
+[22:38:35] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[22:38:35] [Server thread/DEBUG] [FML]: Skipping mod team.chisel.ctm.CTM, container opted to not load.
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file DecoCraft-Mod-1.12.2.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file DecoCraft-Mod-1.12.2.jar
+[22:38:35] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mia.props.Props) - loading
+[22:38:35] [Server thread/TRACE] [FML]: Parsed dependency info for props: Requirements: [] After:[ptrmodellib] Before:[]
+[22:38:35] [Server thread/DEBUG] [FML]: Examining file DynamicTrees-1.12.2-0.9.5.jar for potential mods
+[22:38:35] [Server thread/TRACE] [FML]: Located mcmod.info file in file DynamicTrees-1.12.2-0.9.5.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.ferreusveritas.dynamictrees.DynamicTrees) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for dynamictrees: Requirements: [forge@[14.23.5.2768,)] After:[forge@[14.23.5.2768,)] Before:[rustic@(1.0.14,), dynamictreesbop@(1.4.1d,), dynamictreestc@(1.4.1d,), dynamictreestc@(1.4.1e,), dttraverse@(1.4,), dynamictreeshnc@(1.1,)]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file ElevatorMod-1.12.2-1.4.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file ElevatorMod-1.12.2-1.4.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (xyz.vsngamer.elevator.ElevatorMod) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for elevatorid: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file emoticons-0.3-1.12.2-dist.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file emoticons-0.3-1.12.2-dist.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mchorse.emoticons.c7944f36f5024d067) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for emoticons: Requirements: [mclib@[1.0.3,)] After:[mclib@[1.0.3,), metamorph] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file FastFurnace-1.12.2-1.3.1.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file FastFurnace-1.12.2-1.3.1.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (shadows.fastfurnace.FastFurnace) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for fastfurnace: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file Ferdinand's+Flowers-1.12.x-1.10.4.1.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file Ferdinand's+Flowers-1.12.x-1.10.4.1.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (c0_0ry.ferdinandsflowers.FerdinandsFlowers) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for ferdinandsflowers: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file fossilsarcheology-8.0.3.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file fossilsarcheology-8.0.3.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (fossilsarcheology.Revival) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Using mcmod dependency info for fossil: [llibrary@[1.7.17,)] [llibrary@[1.7.17,)] []
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file FTBLib-5.4.3.141.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file FTBLib-5.4.3.141.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.feed_the_beast.ftblib.FTBLib) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for ftblib: Requirements: [forge@[14.23.5.2768,)] After:[forge@[14.23.5.2768,), jei@[4.6.0,)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file FTBUtilities-5.4.0.107.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file FTBUtilities-5.4.0.107.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.feed_the_beast.ftbutilities.FTBUtilities) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for ftbutilities: Requirements: [ftblib@[5.4.3.139,)] After:[ftblib@[5.4.3.139,)] Before:[kubejs]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.someguyssoftware.gottschcore.GottschCore) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for gottschcore: Requirements: [forge@[14.23.5.2768,)] After:[forge@[14.23.5.2768,)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file Hwyla-1.8.26-B41_1.12.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file Hwyla-1.8.26-B41_1.12.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mcp.mobius.waila.Waila) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for waila: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file iChunUtil-1.12.2-7.2.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file iChunUtil-1.12.2-7.2.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.ichun.mods.ichunutil.common.iChunUtil) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for ichunutil: Requirements: [forge@[14.23.5.2781,99999.24.0.0)] After:[forge@[14.23.5.2781,99999.24.0.0)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file InfernalMobs-1.12.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file InfernalMobs-1.12.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (atomicstryker.infernalmobs.common.InfernalMobsCore) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for infernalmobs: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file jei_1.12.2-4.15.0.291.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file jei_1.12.2-4.15.0.291.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mezz.jei.JustEnoughItems) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for jei: Requirements: [forge@[14.23.5.2816,)] After:[forge@[14.23.5.2816,)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file journeymap-1.12.2-5.5.5.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file journeymap-1.12.2-5.5.5.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Using mcmod dependency info for journeymap: [] [Forge@[14.23.5.2768,)] []
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file malisiscore-1.12.2-6.5.1.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file malisiscore-1.12.2-6.5.1.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.malisis.core.MalisisCore) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for malisiscore: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file malisisdoors-1.12.2-7.3.0.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file malisisdoors-1.12.2-7.3.0.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.malisis.doors.MalisisDoors) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for malisisdoors: Requirements: [malisiscore] After:[malisiscore] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file MCA-1.12.2-6.0.1-universal.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file MCA-1.12.2-6.0.1-universal.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mca.core.MCA) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for mca: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file mclib-1.0.3-1.12.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file mclib-1.0.3-1.12.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mchorse.mclib.McLib) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for mclib: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file MobDismemberment-1.12.2-7.0.0.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file MobDismemberment-1.12.2-7.0.0.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.ichun.mods.mobdismemberment.common.MobDismemberment) - loading
+[22:38:36] [Server thread/INFO] [FML]: Disabling mod mobdismemberment it is client side only.
+[22:38:36] [Server thread/DEBUG] [FML]: Skipping mod me.ichun.mods.mobdismemberment.common.MobDismemberment, container opted to not load.
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file mutatedmobs-1.0.8.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file mutatedmobs-1.0.8.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mmm.MainClass) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for mmm: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/INFO] [FML]: Mod mmm is missing the required element 'name'. Substituting mmm
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file Neat+1.4-17.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file Neat+1.4-17.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (vazkii.neat.Neat) - loading
+[22:38:36] [Server thread/INFO] [FML]: Disabling mod neat it is client side only.
+[22:38:36] [Server thread/DEBUG] [FML]: Skipping mod vazkii.neat.Neat, container opted to not load.
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file PlayerRevive_v1.2.26_mc1.12.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file PlayerRevive_v1.2.26_mc1.12.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.creativemd.playerrevive.PlayerRevive) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for playerrevive: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file PTRLib-1.0.4.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file PTRLib-1.0.4.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mia.craftstudio.minecraft.forge.CSLibMod) - loading
+[22:38:36] [Server thread/INFO] [FML]: Disabling mod ptrmodellib it is client side only.
+[22:38:36] [Server thread/DEBUG] [FML]: Skipping mod com.mia.craftstudio.minecraft.forge.CSLibMod, container opted to not load.
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file rustic-1.1.1.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file rustic-1.1.1.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (rustic.core.Rustic) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for rustic: Requirements: [] After:[dynamictrees@[1.12.2-0.9.1e,), dynamictreesbop] Before:[dynamictreestc]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file SpartanShields-1.12.2-1.5.4.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file SpartanShields-1.12.2-1.5.4.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.oblivioussp.spartanshields.ModSpartanShields) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for spartanshields: Requirements: [] After:[redstoneflux, enderio, rftools, botania, redstonearsenal, abyssalcraft, betterwithmods, thaumcraft] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file tombstone-3.5.8-1.12.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file tombstone-3.5.8-1.12.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (ovh.corail.tombstone.ModTombstone) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for tombstone: Requirements: [] After:[] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.someguyssoftware.treasure2.Treasure) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for treasure2: Requirements: [gottschcore@[1.8.0,)] After:[gottschcore@[1.8.0,)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file zawa-1.12.2-1.7.0.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file zawa-1.12.2-1.7.0.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (org.zawamod.ZAWAMain) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for zawa: Requirements: [bookworm@[1.12.2-2.2.0,)] After:[bookworm@[1.12.2-2.2.0,)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file llibrary-1.7.19-1.12.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file llibrary-1.7.19-1.12.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.ilexiconn.llibrary.LLibrary) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for llibrary: Requirements: [forge@[14.23.5.2772,)] After:[forge@[14.23.5.2772,)] Before:[]
+[22:38:36] [Server thread/DEBUG] [FML]: Examining file VanillaPlusTools-1.2.jar for potential mods
+[22:38:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file VanillaPlusTools-1.2.jar
+[22:38:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.supertools.SuperTools) - loading
+[22:38:36] [Server thread/TRACE] [FML]: Parsed dependency info for supertools: Requirements: [] After:[gbook] Before:[]
+[22:38:36] [Server thread/INFO] [FML]: Forge Mod Loader has identified 43 mods to load
+[22:38:36] [Server thread/DEBUG] [FML]: Found API ovh.corail.tombstone.api.event (owned by tombstone providing tombstone-api-event) embedded in tombstone
+[22:38:36] [Server thread/DEBUG] [FML]: Found API ovh.corail.tombstone.api.recipe (owned by tombstone providing tombstone-api-recipe) embedded in tombstone
+[22:38:36] [Server thread/DEBUG] [FML]: Found API net.geforcemods.securitycraft.api (owned by securitycraft providing SecurityCraftAPI) embedded in securitycraft
+[22:38:36] [Server thread/DEBUG] [FML]: Found API journeymap.client.api.model (owned by journeymap providing journeymap|client-api-model) embedded in journeymap
+[22:38:36] [Server thread/DEBUG] [FML]: Found API journeymap.client.api.display (owned by journeymap providing journeymap|client-api-display) embedded in journeymap
+[22:38:36] [Server thread/DEBUG] [FML]: Found API journeymap.client.api.util (owned by journeymap providing journeymap|client-api-util) embedded in journeymap
+[22:38:36] [Server thread/DEBUG] [FML]: Found API journeymap.client.api (owned by journeymap providing journeymap|client-api) embedded in journeymap
+[22:38:36] [Server thread/DEBUG] [FML]: Found API journeymap.client.api.event (owned by journeymap providing journeymap|client-api-event) embedded in journeymap
+[22:38:36] [Server thread/DEBUG] [FML]: Found API mezz.jei.api (owned by jei providing JustEnoughItemsAPI) embedded in jei
+[22:38:36] [Server thread/DEBUG] [FML]: Found API ovh.corail.tombstone.api.capability (owned by tombstone providing tombstone-api-capability) embedded in tombstone
+[22:38:36] [Server thread/DEBUG] [FML]: Found API mcp.mobius.waila.api (owned by Waila providing WailaAPI) embedded in waila
+[22:38:36] [Server thread/DEBUG] [FML]: Found API me.ichun.mods.ichunutil.api (owned by iChun providing iChunUtil API) embedded in ichunutil
+[22:38:36] [Server thread/DEBUG] [FML]: Found API com.creativemd.playerrevive.api (owned by playerrevive providing PlayerReviveAPI) embedded in playerrevive
+[22:38:36] [Server thread/DEBUG] [FML]: Found API ovh.corail.tombstone.api.magic (owned by tombstone providing tombstone-api-magic) embedded in tombstone
+[22:38:36] [Server thread/DEBUG] [FML]: Found API ovh.corail.tombstone.api (owned by tombstone providing tombstone-api) embedded in tombstone
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API iChunUtil API: owner: iChun, dependents: [ichunutil]
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API SecurityCraftAPI: owner: securitycraft, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API JustEnoughItemsAPI: owner: jei, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API journeymap|client-api-display: owner: journeymap, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API tombstone-api-event: owner: tombstone, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API ctm-api-events: owner: ctm, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API WailaAPI: owner: Waila, dependents: [waila]
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API ctm-api-utils: owner: ctm, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API tombstone-api-capability: owner: tombstone, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API PlayerReviveAPI: owner: playerrevive, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API tombstone-api-magic: owner: tombstone, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API ctm-api-models: owner: ctm, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API ctm-api-textures: owner: ctm, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API journeymap|client-api-model: owner: journeymap, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API tombstone-api-recipe: owner: tombstone, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API journeymap|client-api: owner: journeymap, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API tombstone-api: owner: tombstone, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API journeymap|client-api-event: owner: journeymap, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API journeymap|client-api-util: owner: journeymap, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API ctm-api: owner: ctm, dependents: []
+[22:38:36] [Server thread/DEBUG] [FML]: Creating API container dummy for API CSLib|API: owner: ptrmodellib, dependents: []
+[22:38:36] [Server thread/TRACE] [FML]: Received a system property request ''
+[22:38:36] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[22:38:36] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[22:38:36] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[22:38:36] [Server thread/WARN] [FML]: Mod mclib_core has been disabled through configuration
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod securitycraft
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod deconstruction
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod backpacks16840
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod biomesoplenty
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod bookshelf
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod bookworm
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod chococraft
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod codechickenlib
+[22:38:36] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod creativecore
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod props
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod dynamictrees
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod elevatorid
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod emoticons
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod fastfurnace
+[22:38:36] [Server thread/WARN] [FML]: Missing English translation for fastfurnace: assets/fastfurnace/lang/en_us.lang
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod ferdinandsflowers
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod fossil
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod ftblib
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod ftbutilities
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod gottschcore
+[22:38:36] [Server thread/WARN] [FML]: Missing English translation for gottschcore: assets/gottschcore/lang/en_us.lang
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod waila
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod ichunutil
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod infernalmobs
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod jei
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod journeymap
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod malisiscore
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod malisisdoors
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod mca
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod mclib
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod mmm
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod playerrevive
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod rustic
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod spartanshields
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod tombstone
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod treasure2
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod zawa
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod llibrary
+[22:38:36] [Server thread/DEBUG] [FML]: Enabling mod supertools
+[22:38:36] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[22:38:36] [Server thread/TRACE] [FML]: All mod requirements are satisfied
+[22:38:37] [Server thread/TRACE] [FML]: Sorting mods into an ordered list
+[22:38:37] [Server thread/TRACE] [FML]: Mod sorting completed successfully
+[22:38:37] [Server thread/DEBUG] [FML]: Mod sorting data
+[22:38:37] [Server thread/DEBUG] [FML]: 	securitycraft(SecurityCraft:v1.8.13.1): [1.12.2]+SecurityCraft+v1.8.13.1.jar (required-after:forge@[14.23.3.2694,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	deconstruction(Deconstruction Table:3.0.4): [MC1.12.2]DeconTable-3.0.4.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	backpacks16840(Backpacks!:3.5.8): backpacks+1.12.2+-+3.5.8.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	biomesoplenty(Biomes O' Plenty:7.0.1.2441): BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar (required-after:forge@[14.23.5.2768,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	bookshelf(Bookshelf:2.3.585): Bookshelf-1.12.2-2.3.585.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	bookworm(Bookworm API:1.12.2-2.3.0): bookworm-1.12.2-2.3.0.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	chococraft(Chococraft 3:0.9.8.0): chococraft_1.12.2-0.9.8.0.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	codechickenlib(CodeChicken Lib:3.2.3.358): CodeChickenLib-1.12.2-3.2.3.358-universal.jar (required-after:forge@[14.23.4.2718,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	creativecore(CreativeCore:1.9.9): CreativeCore_v1.9.68_mc1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	props(Decocraft:2.6.3): DecoCraft-Mod-1.12.2.jar (required-after-client:ptrmodellib@[1.0.3,);after:ptrmodellib)
+[22:38:37] [Server thread/DEBUG] [FML]: 	dynamictrees(Dynamic Trees:1.12.2-0.9.5): DynamicTrees-1.12.2-0.9.5.jar (required-after:forge@[14.23.5.2768,);before:rustic@(1.0.14,);before:dynamictreesbop@(1.4.1d,);before:dynamictreestc@(1.4.1d,);before:dynamictreestc@(1.4.1e,);before:dttraverse@(1.4,);before:dynamictreeshnc@(1.1,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	elevatorid(Elevator Mod:1.4.2): ElevatorMod-1.12.2-1.4.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	mclib(McLib:1.0.3): mclib-1.0.3-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	emoticons(Emoticons:0.3): emoticons-0.3-1.12.2-dist.jar (required-after:mclib@[1.0.3,);after:metamorph)
+[22:38:37] [Server thread/DEBUG] [FML]: 	fastfurnace(FastFurnace:1.3.1): FastFurnace-1.12.2-1.3.1.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ferdinandsflowers(Ferdinand's Flowers:1.10.4.1): Ferdinand's+Flowers-1.12.x-1.10.4.1.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	llibrary(LLibrary:1.7.19): llibrary-1.7.19-1.12.2.jar (required-after:forge@[14.23.5.2772,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	fossil(Fossils and Archeology Revival:8.0.3): fossilsarcheology-8.0.3.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	jei(Just Enough Items:4.15.0.291): jei_1.12.2-4.15.0.291.jar (required-after:forge@[14.23.5.2816,);)
+[22:38:37] [Server thread/DEBUG] [FML]: 	ftblib(FTB Library:5.4.3.141): FTBLib-5.4.3.141.jar (required-after:forge@[14.23.5.2768,);after:jei@[4.6.0,);)
+[22:38:37] [Server thread/DEBUG] [FML]: 	ftbutilities(FTB Utilities:5.4.0.107): FTBUtilities-5.4.0.107.jar (required-after:ftblib@[5.4.3.139,);before:kubejs)
+[22:38:37] [Server thread/DEBUG] [FML]: 	gottschcore(GottschCore:1.8.0): GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar (required-after:forge@[14.23.5.2768,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	WailaAPI(API: WailaAPI:1.3): Hwyla-1.8.26-B41_1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	waila(Waila:1.8.26): Hwyla-1.8.26-B41_1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	iChunUtil API(API: iChunUtil API:1.2.0): iChunUtil-1.12.2-7.2.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ichunutil(iChunUtil:7.2.2): iChunUtil-1.12.2-7.2.2.jar (required-after:forge@[14.23.5.2781,99999.24.0.0))
+[22:38:37] [Server thread/DEBUG] [FML]: 	infernalmobs(Infernal Mobs:1.7.6): InfernalMobs-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	journeymap(JourneyMap:1.12.2-5.5.5): journeymap-1.12.2-5.5.5.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	malisiscore(MalisisCore:1.12.2-6.5.1-SNAPSHOT): malisiscore-1.12.2-6.5.1.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	malisisdoors(MalisisDoors:1.12.2-7.3.0): malisisdoors-1.12.2-7.3.0.jar (required-after:malisiscore)
+[22:38:37] [Server thread/DEBUG] [FML]: 	mca(Minecraft Comes Alive:6.0.1): MCA-1.12.2-6.0.1-universal.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	mmm(mmm:1.0.8): mutatedmobs-1.0.8.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	playerrevive(Player Revive:1.0): PlayerRevive_v1.2.26_mc1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	rustic(Rustic:1.1.1): rustic-1.1.1.jar (after:dynamictrees@[1.12.2-0.9.1e,);after:dynamictreesbop;before:dynamictreestc)
+[22:38:37] [Server thread/DEBUG] [FML]: 	spartanshields(Spartan Shields:1.5.4): SpartanShields-1.12.2-1.5.4.jar (after:redstoneflux;after:enderio;after:rftools;after:botania;after:redstonearsenal;after:abyssalcraft;after:betterwithmods;after:thaumcraft)
+[22:38:37] [Server thread/DEBUG] [FML]: 	tombstone(Corail Tombstone:3.5.8): tombstone-3.5.8-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	treasure2(Treasure2!:1.5.1): Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar (required-after:gottschcore@[1.8.0,))
+[22:38:37] [Server thread/DEBUG] [FML]: 	zawa(Zoo and Wild Animals Mod: Rebuilt:1.12.2-1.7.0): zawa-1.12.2-1.7.0.jar (required-after:bookworm@[1.12.2-2.2.0,);)
+[22:38:37] [Server thread/DEBUG] [FML]: 	supertools(Vanilla+ Tools:1.12.2-null): VanillaPlusTools-1.2.jar (after:gbook)
+[22:38:37] [Server thread/DEBUG] [FML]: 	SecurityCraftAPI(API: SecurityCraftAPI:1.2.3): [1.12.2]+SecurityCraft+v1.8.13.1.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	JustEnoughItemsAPI(API: JustEnoughItemsAPI:4.13.0): jei_1.12.2-4.15.0.291.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	journeymap|client-api-display(API: journeymap|client-api-display:1.4): journeymap-1.12.2-5.5.5.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	tombstone-api-event(API: tombstone-api-event:1.0.3): tombstone-3.5.8-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ctm-api-events(API: ctm-api-events:0.1.0): CTM-MC1.12.2-1.0.0.29.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ctm-api-utils(API: ctm-api-utils:0.1.0): CTM-MC1.12.2-1.0.0.29.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	tombstone-api-capability(API: tombstone-api-capability:1.0.3): tombstone-3.5.8-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	PlayerReviveAPI(API: PlayerReviveAPI:3): PlayerRevive_v1.2.26_mc1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	tombstone-api-magic(API: tombstone-api-magic:1.0.3): tombstone-3.5.8-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ctm-api-models(API: ctm-api-models:0.1.0): CTM-MC1.12.2-1.0.0.29.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ctm-api-textures(API: ctm-api-textures:0.1.0): CTM-MC1.12.2-1.0.0.29.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	journeymap|client-api-model(API: journeymap|client-api-model:1.4): journeymap-1.12.2-5.5.5.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	tombstone-api-recipe(API: tombstone-api-recipe:1.0.3): tombstone-3.5.8-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	journeymap|client-api(API: journeymap|client-api:1.4): journeymap-1.12.2-5.5.5.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	tombstone-api(API: tombstone-api:1.0.3): tombstone-3.5.8-1.12.2.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	journeymap|client-api-event(API: journeymap|client-api-event:1.4): journeymap-1.12.2-5.5.5.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	journeymap|client-api-util(API: journeymap|client-api-util:1.4): journeymap-1.12.2-5.5.5.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	ctm-api(API: ctm-api:0.1.0): CTM-MC1.12.2-1.0.0.29.jar ()
+[22:38:37] [Server thread/DEBUG] [FML]: 	CSLib|API(API: CSLib|API:1.0.1): PTRLib-1.0.4.jar ()
+[22:38:37] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.0.29.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:38:37] [Server thread/INFO] [FML]: FML has found a non-mod file MobDismemberment-1.12.2-7.0.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:38:37] [Server thread/INFO] [FML]: FML has found a non-mod file Neat+1.4-17.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:38:37] [Server thread/INFO] [FML]: FML has found a non-mod file PTRLib-1.0.4.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:38:37] [Server thread/DEBUG] [FML]: Loading @Config anotation data
+[22:38:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[22:38:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[22:38:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.001s
+[22:38:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[22:38:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[22:38:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[22:38:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[22:38:37] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[22:38:37] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[22:38:37] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[22:38:37] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, securitycraft, deconstruction, backpacks16840, biomesoplenty, bookshelf, bookworm, chococraft, codechickenlib, creativecore, props, dynamictrees, elevatorid, emoticons, fastfurnace, ferdinandsflowers, fossil, ftblib, ftbutilities, gottschcore, waila, ichunutil, infernalmobs, jei, journeymap, malisiscore, malisisdoors, mca, mclib, mmm, playerrevive, rustic, spartanshields, tombstone, treasure2, zawa, llibrary, supertools] at CLIENT
+[22:38:37] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, securitycraft, deconstruction, backpacks16840, biomesoplenty, bookshelf, bookworm, chococraft, codechickenlib, creativecore, props, dynamictrees, elevatorid, emoticons, fastfurnace, ferdinandsflowers, fossil, ftblib, ftbutilities, gottschcore, waila, ichunutil, infernalmobs, jei, journeymap, malisiscore, malisisdoors, mca, mclib, mmm, playerrevive, rustic, spartanshields, tombstone, treasure2, zawa, llibrary, supertools] at SERVER
+[22:38:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[22:38:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.824s
+[22:38:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[22:38:37] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@49e5312d
+[22:38:37] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[22:38:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[22:38:37] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[22:38:37] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[22:38:37] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2847)
+[22:38:37] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.087s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod creativecoredummy
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod creativecoredummy
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - CreativeCoreDummy took 0.000s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod securitycraft
+[22:38:38] [Server thread/TRACE] [FML]: Mod securitycraft is using network checker : Accepting version v1.8.13.1
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod securitycraft to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod securitycraft accepts its own version (v1.8.13.1)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into securitycraft
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for securitycraft
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.geforcemods.securitycraft.RegistrationHandler for mod securitycraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.geforcemods.securitycraft.RegistrationHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into securitycraft for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod securitycraft
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - SecurityCraft took 0.103s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod deconstruction
+[22:38:38] [Server thread/TRACE] [FML]: Mod deconstruction is using network checker : Accepting version 3.0.4
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod deconstruction to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod deconstruction accepts its own version (3.0.4)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into deconstruction
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for deconstruction
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into deconstruction for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod deconstruction
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Deconstruction Table took 0.007s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod backpacks16840
+[22:38:38] [Server thread/TRACE] [FML]: Mod backpacks16840 is using network checker : Accepting version 3.5.8
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod backpacks16840 to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod backpacks16840 accepts its own version (3.5.8)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into backpacks16840
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for backpacks16840
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into backpacks16840 for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod backpacks16840
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Backpacks! took 0.060s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod biomesoplenty
+[22:38:38] [Server thread/TRACE] [FML]: Mod biomesoplenty is using network checker : Accepting version 7.0.1.2441
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod biomesoplenty to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod biomesoplenty accepts its own version (7.0.1.2441)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into biomesoplenty
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for biomesoplenty
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into biomesoplenty for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod biomesoplenty
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Biomes O' Plenty took 0.007s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod bookshelf
+[22:38:38] [Server thread/TRACE] [FML]: Mod bookshelf is using network checker : Accepting version 2.3.585
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod bookshelf to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod bookshelf accepts its own version (2.3.585)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into bookshelf
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for bookshelf
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into bookshelf for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod bookshelf
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Bookshelf took 0.013s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod bookworm
+[22:38:38] [Server thread/TRACE] [FML]: Mod bookworm is using network checker : Accepting version 1.12.2-2.3.0
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod bookworm to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod bookworm accepts its own version (1.12.2-2.3.0)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into bookworm
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for bookworm
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.soggymustache.bookworm.common.init.items.BookwormItems for mod bookworm
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.soggymustache.bookworm.common.init.items.BookwormItems
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.soggymustache.bookworm.common.entity.BookwormEntities for mod bookworm
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.soggymustache.bookworm.common.entity.BookwormEntities
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into bookworm for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod bookworm
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Bookworm API took 0.006s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod chococraft
+[22:38:38] [Server thread/TRACE] [FML]: Mod chococraft is using network checker : Accepting version 0.9.8.0
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod chococraft to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod chococraft accepts its own version (0.9.8.0)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.utils.RetrogenManager for mod chococraft
+[22:38:38] [Server thread/DEBUG] [mixin]: Mixing MixinChunk from mixins.malisiscore.core.json into net.minecraft.world.chunk.Chunk
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/malisis/core/registry/Registries to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/malisis/core/util/callback/CallbackResult to metadata cache
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.utils.RetrogenManager
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.ChocoConfig for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.ChocoConfig
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.init.ModItems for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.init.ModItems
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.init.ModSounds for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.init.ModSounds
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.init.ModBlocks for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.init.ModBlocks
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.RidingEventHandler for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.RidingEventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.init.ModEntities for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.init.ModEntities
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.init.ModRecipes for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.init.ModRecipes
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.slayer5934.chococraft.common.handler.LootTableEventHandler for mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.slayer5934.chococraft.common.handler.LootTableEventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into chococraft for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod chococraft
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Chococraft 3 took 0.062s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod codechickenlib
+[22:38:38] [Server thread/TRACE] [FML]: Mod codechickenlib is using network checker : Accepting version 3.2.3.358
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod codechickenlib to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod codechickenlib accepts its own version (3.2.3.358)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into codechickenlib
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for codechickenlib
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for codechicken.lib.configuration.ConfigSyncManager for mod codechickenlib
+[22:38:38] [Server thread/DEBUG] [mixin]: Mixing MixinChunkCollision$MixinNetHandlerPlayServer from mixins.malisiscore.core.json into net.minecraft.network.NetHandlerPlayServer
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/network/play/client/CPacketPlayerDigging to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayerMP to metadata cache
+[22:38:38] [Server thread/DEBUG] [LLibrary Core]: Patching class net/minecraft/server/MinecraftServer
+[22:38:38] [Server thread/DEBUG] [LLibrary Core]:    Patching method run()V
+[22:38:38] [Server thread/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:38] [Server thread/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:38] [Server thread/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:38] [Server thread/DEBUG] [LLibrary Core]: Found no method mapping for net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks/getTickRate()J
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/server/MinecraftServer to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/network/Packet to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/network/INetHandler to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/util/IThreadListener to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/network/play/client/CPacketPlayerDigging$Action to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/block/material/Material to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/network/play/server/SPacketBlockChange to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/TextComponentTranslation to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/String to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/TextComponentBase to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/Exception to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/Throwable to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/Vec3i to metadata cache
+[22:38:38] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/tileentity/CommandBlockBaseLogic to metadata cache
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class codechicken.lib.configuration.ConfigSyncManager
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for codechicken.lib.internal.CCLLog for mod codechickenlib
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class codechicken.lib.internal.CCLLog
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into codechickenlib for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod codechickenlib
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - CodeChicken Lib took 0.166s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod creativecore
+[22:38:38] [Server thread/TRACE] [FML]: Mod creativecore is using network checker : Accepting version 1.9.9
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod creativecore to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod creativecore accepts its own version (1.9.9)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into creativecore
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for creativecore
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into creativecore for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod creativecore
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - CreativeCore took 0.008s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod props
+[22:38:38] [Server thread/TRACE] [FML]: Mod props is using network checker : Accepting version 2.6.3
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod props to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod props accepts its own version (2.6.3)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into props
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for props
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into props for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod props
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Decocraft took 0.026s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod dynamictrees
+[22:38:38] [Server thread/TRACE] [FML]: Mod dynamictrees is using network checker : Accepting version 1.12.2-0.9.5
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod dynamictrees to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod dynamictrees accepts its own version (1.12.2-0.9.5)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.ferreusveritas.dynamictrees.ModEntities for mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.ferreusveritas.dynamictrees.ModEntities
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.ferreusveritas.dynamictrees.ModItems for mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.ferreusveritas.dynamictrees.ModItems
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.ferreusveritas.dynamictrees.ModRecipes for mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.ferreusveritas.dynamictrees.ModRecipes
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.ferreusveritas.dynamictrees.ModModels for mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.ferreusveritas.dynamictrees.ModModels
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.ferreusveritas.dynamictrees.ModTrees for mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.ferreusveritas.dynamictrees.ModTrees
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.ferreusveritas.dynamictrees.ModBlocks for mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.ferreusveritas.dynamictrees.ModBlocks
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into dynamictrees for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod dynamictrees
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Dynamic Trees took 0.046s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod elevatorid
+[22:38:38] [Server thread/TRACE] [FML]: Mod elevatorid is using network checker : Accepting version 1.4.2
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod elevatorid to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod elevatorid accepts its own version (1.4.2)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for xyz.vsngamer.elevator.init.ModConfig for mod elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class xyz.vsngamer.elevator.init.ModConfig
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for xyz.vsngamer.elevator.init.ModSounds for mod elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class xyz.vsngamer.elevator.init.ModSounds
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for xyz.vsngamer.elevator.init.Registry for mod elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class xyz.vsngamer.elevator.init.Registry
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for xyz.vsngamer.elevator.ElevatorHandler for mod elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class xyz.vsngamer.elevator.ElevatorHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into elevatorid for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod elevatorid
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Elevator Mod took 0.014s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mclib
+[22:38:38] [Server thread/TRACE] [FML]: Mod mclib is using network checker : Accepting version 1.0.3
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod mclib to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod mclib accepts its own version (1.0.3)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into mclib
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for mclib
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for mchorse.mclib.McLib for mod mclib
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class mchorse.mclib.McLib
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into mclib for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mclib
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - McLib took 0.002s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod emoticons
+[22:38:38] [Server thread/TRACE] [FML]: Mod emoticons is using network checker : Invoking method m841fbcb4a464c844
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod emoticons to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod emoticons accepts its own version (0.3)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into emoticons
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for emoticons
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into emoticons for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod emoticons
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Emoticons took 0.005s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod fastfurnace
+[22:38:38] [Server thread/TRACE] [FML]: Mod fastfurnace is using network checker : Accepting version 1.3.1
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod fastfurnace to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod fastfurnace accepts its own version (1.3.1)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into fastfurnace
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for fastfurnace
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into fastfurnace for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod fastfurnace
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - FastFurnace took 0.003s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod ferdinandsflowers
+[22:38:38] [Server thread/TRACE] [FML]: Mod ferdinandsflowers is using network checker : Accepting version 1.10.4.1
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod ferdinandsflowers to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod ferdinandsflowers accepts its own version (1.10.4.1)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ferdinandsflowers
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ferdinandsflowers
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for c0_0ry.ferdinandsflowers.ConfigCFF$EventHandler for mod ferdinandsflowers
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class c0_0ry.ferdinandsflowers.ConfigCFF$EventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into ferdinandsflowers for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod ferdinandsflowers
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Ferdinand's Flowers took 0.096s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod llibrary
+[22:38:38] [Server thread/TRACE] [FML]: Mod llibrary is using network checker : Accepting version 1.7.19
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod llibrary to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod llibrary accepts its own version (1.7.19)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into llibrary
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for llibrary
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into llibrary for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod llibrary
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - LLibrary took 0.021s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod fossil
+[22:38:38] [Server thread/TRACE] [FML]: Mod fossil is using network checker : Accepting version 8.0.3
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod fossil to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod fossil accepts its own version (8.0.3)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into fossil
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for fossil
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for fossilsarcheology.client.ClientProxy for mod fossil
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class fossilsarcheology.client.ClientProxy
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for fossilsarcheology.server.ServerProxy for mod fossil
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class fossilsarcheology.server.ServerProxy
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into fossil for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod fossil
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Fossils and Archeology Revival took 0.052s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod jei
+[22:38:38] [Server thread/TRACE] [FML]: Mod jei is using network checker : Invoking method checkModLists
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod jei to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod jei accepts its own version (4.15.0.291)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into jei
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into jei for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod jei
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Just Enough Items took 0.006s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod ftblib
+[22:38:38] [Server thread/TRACE] [FML]: Mod ftblib is using network checker : Invoking method checkModLists
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod ftblib to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod ftblib accepts its own version (5.4.3.141)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ftblib
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ftblib
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftblib.lib.data.Universe for mod ftblib
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftblib.lib.data.Universe
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftblib.FTBLibConfig for mod ftblib
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftblib.FTBLibConfig
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into ftblib for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod ftblib
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - FTB Library took 0.157s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod ftbutilities
+[22:38:38] [Server thread/TRACE] [FML]: Mod ftbutilities is using network checker : No network checking performed
+[22:38:38] [Server thread/TRACE] [FML]: Testing mod ftbutilities to verify it accepts its own version in a remote connection
+[22:38:38] [Server thread/TRACE] [FML]: The mod ftbutilities accepts its own version (5.4.0.107)
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.data.FTBUtilitiesUniverseData for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.data.FTBUtilitiesUniverseData
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.FTBUtilitiesPermissions for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.FTBUtilitiesPermissions
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesWorldEventHandler for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesWorldEventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesPlayerEventHandler for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesPlayerEventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesServerEventHandler for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesServerEventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.FTBUtilitiesConfig for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.FTBUtilitiesConfig
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesRegistryEventHandler for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.handlers.FTBUtilitiesRegistryEventHandler
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.data.FTBUtilitiesTeamData for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.data.FTBUtilitiesTeamData
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.FTBUtilitiesLeaderboards for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.FTBUtilitiesLeaderboards
+[22:38:38] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.feed_the_beast.ftbutilities.command.FTBUtilitiesCommands for mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.feed_the_beast.ftbutilities.command.FTBUtilitiesCommands
+[22:38:38] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into ftbutilities for type INSTANCE
+[22:38:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod ftbutilities
+[22:38:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - FTB Utilities took 0.121s
+[22:38:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod gottschcore
+[22:38:39] [Server thread/TRACE] [FML]: Mod gottschcore is using network checker : Accepting version 1.8.0
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod gottschcore to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod gottschcore accepts its own version (1.8.0)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into gottschcore
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for gottschcore
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into gottschcore for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod gottschcore
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - GottschCore took 0.013s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod waila
+[22:38:39] [Server thread/TRACE] [FML]: Mod waila is using network checker : No network checking performed
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod waila to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod waila accepts its own version (1.8.26)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into waila
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for waila
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.handlers.NetworkHandler for mod waila
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.handlers.NetworkHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into waila for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod waila
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Waila took 0.011s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod ichunutil
+[22:38:39] [Server thread/TRACE] [FML]: Mod ichunutil is using network checker : Accepting range 7.2.0 or above, and below 7.3.0
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod ichunutil to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod ichunutil accepts its own version (7.2.2)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ichunutil
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ichunutil
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into ichunutil for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod ichunutil
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - iChunUtil took 0.038s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod infernalmobs
+[22:38:39] [Server thread/TRACE] [FML]: Mod infernalmobs is using network checker : Accepting version 1.7.6
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod infernalmobs to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod infernalmobs accepts its own version (1.7.6)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into infernalmobs
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for infernalmobs
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into infernalmobs for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod infernalmobs
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Infernal Mobs took 0.017s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod journeymap
+[22:38:39] [Server thread/TRACE] [FML]: Mod journeymap is using network checker : Invoking method checkModLists
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod journeymap accepts its own version (1.12.2-5.5.5)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into journeymap
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for journeymap
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into journeymap for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod journeymap
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - JourneyMap took 0.012s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod malisiscore
+[22:38:39] [Server thread/TRACE] [FML]: Mod malisiscore is using network checker : Accepting version 1.12.2-6.5.1-SNAPSHOT
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod malisiscore to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod malisiscore accepts its own version (1.12.2-6.5.1-SNAPSHOT)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into malisiscore
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for malisiscore
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into malisiscore for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod malisiscore
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - MalisisCore took 0.008s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod malisisdoors
+[22:38:39] [Server thread/TRACE] [FML]: Mod malisisdoors is using network checker : Accepting version 1.12.2-7.3.0
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod malisisdoors to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod malisisdoors accepts its own version (1.12.2-7.3.0)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into malisisdoors
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for malisisdoors
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into malisisdoors for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod malisisdoors
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - MalisisDoors took 0.012s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mca
+[22:38:39] [Server thread/TRACE] [FML]: Mod mca is using network checker : Accepting version 6.0.1
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod mca to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod mca accepts its own version (6.0.1)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into mca
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for mca
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for mca.core.minecraft.ProfessionsMCA$RegistrationHandler for mod mca
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class mca.core.minecraft.ProfessionsMCA$RegistrationHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into mca for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mca
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Comes Alive took 0.017s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mmm
+[22:38:39] [Server thread/TRACE] [FML]: Mod mmm is using network checker : Accepting version 1.0.8
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod mmm to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod mmm accepts its own version (1.0.8)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into mmm
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for mmm
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for mmm.eventHandler.EventHandler for mod mmm
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class mmm.eventHandler.EventHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into mmm for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mmm
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - mmm took 0.025s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod playerrevive
+[22:38:39] [Server thread/TRACE] [FML]: Mod playerrevive is using network checker : Accepting version 1.0
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod playerrevive to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod playerrevive accepts its own version (1.0)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into playerrevive
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for playerrevive
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into playerrevive for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod playerrevive
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Player Revive took 0.013s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod rustic
+[22:38:39] [Server thread/TRACE] [FML]: Mod rustic is using network checker : Accepting version 1.1.1
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod rustic to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod rustic accepts its own version (1.1.1)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into rustic
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for rustic
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into rustic for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod rustic
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Rustic took 0.015s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod spartanshields
+[22:38:39] [Server thread/TRACE] [FML]: Mod spartanshields is using network checker : Accepting version 1.5.4
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod spartanshields to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod spartanshields accepts its own version (1.5.4)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.init.EnchantmentRegistry for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.init.EnchantmentRegistry
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.init.ModelRenderRegistry for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.init.ModelRenderRegistry
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.event.EventHandlerClient for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.event.EventHandlerClient
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.init.ItemRegistrySS for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.init.ItemRegistrySS
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.event.EventHandlerCommon for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.event.EventHandlerCommon
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.util.ConfigHandler for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.util.ConfigHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.oblivioussp.spartanshields.init.RecipeRegistry for mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.oblivioussp.spartanshields.init.RecipeRegistry
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into spartanshields for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod spartanshields
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Spartan Shields took 0.037s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod tombstone
+[22:38:39] [Server thread/TRACE] [FML]: Mod tombstone is using network checker : Accepting version 3.5.8
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod tombstone to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod tombstone accepts its own version (3.5.8)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for ovh.corail.tombstone.registry.RegistryHandler for mod tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class ovh.corail.tombstone.registry.RegistryHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for ovh.corail.tombstone.ConfigTombstone for mod tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class ovh.corail.tombstone.ConfigTombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for ovh.corail.tombstone.capability.PerkRegistry for mod tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class ovh.corail.tombstone.capability.PerkRegistry
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for ovh.corail.tombstone.helper.WorldFunctionInjector for mod tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class ovh.corail.tombstone.helper.WorldFunctionInjector
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into tombstone for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod tombstone
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Corail Tombstone took 0.096s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod treasure2
+[22:38:39] [Server thread/TRACE] [FML]: Mod treasure2 is using network checker : Accepting version 1.5.1
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod treasure2 to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod treasure2 accepts its own version (1.5.1)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.someguyssoftware.treasure2.item.TreasureItems$PotionRegistrationHandler for mod treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.someguyssoftware.treasure2.item.TreasureItems$PotionRegistrationHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.someguyssoftware.treasure2.item.TreasureItems$RegistrationHandler for mod treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.someguyssoftware.treasure2.item.TreasureItems$RegistrationHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.someguyssoftware.treasure2.entity.TreasureEntities$RegistrationHandler for mod treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.someguyssoftware.treasure2.entity.TreasureEntities$RegistrationHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.someguyssoftware.treasure2.block.TreasureBlocks$RegistrationHandler for mod treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.someguyssoftware.treasure2.block.TreasureBlocks$RegistrationHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into treasure2 for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod treasure2
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Treasure2! took 0.079s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod zawa
+[22:38:39] [Server thread/TRACE] [FML]: Mod zawa is using network checker : Accepting version 1.12.2-1.7.0
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod zawa to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod zawa accepts its own version (1.12.2-1.7.0)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for org.zawamod.init.ZAWABlocks for mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class org.zawamod.init.ZAWABlocks
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for org.zawamod.entity.ZAWAEntity for mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class org.zawamod.entity.ZAWAEntity
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for org.zawamod.ZAWAMain for mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class org.zawamod.ZAWAMain
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for org.zawamod.event.ZAWAPlayerEvent for mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class org.zawamod.event.ZAWAPlayerEvent
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for org.zawamod.configuration.ZAWAConfig$EventHandler for mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class org.zawamod.configuration.ZAWAConfig$EventHandler
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for org.zawamod.init.ZAWAItems for mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class org.zawamod.init.ZAWAItems
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into zawa for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod zawa
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Zoo and Wild Animals Mod: Rebuilt took 0.181s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod supertools
+[22:38:39] [Server thread/TRACE] [FML]: Mod supertools is using network checker : Accepting version 1.12.2-null
+[22:38:39] [Server thread/TRACE] [FML]: Testing mod supertools to verify it accepts its own version in a remote connection
+[22:38:39] [Server thread/TRACE] [FML]: The mod supertools accepts its own version (1.12.2-null)
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into supertools
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for supertools
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.supertools.proxy.ServerProxy for mod supertools
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.supertools.proxy.ServerProxy
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.supertools.SuperTools for mod supertools
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.supertools.SuperTools
+[22:38:39] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.supertools.proxy.CommonProxy for mod supertools
+[22:38:39] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.supertools.proxy.CommonProxy
+[22:38:39] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into supertools for type INSTANCE
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod supertools
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: Construction - Vanilla+ Tools took 0.015s
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 2.484s
+[22:38:39] [Server thread/DEBUG] [FML]: Mod signature data
+[22:38:39] [Server thread/DEBUG] [FML]:  	Valid Signatures:
+[22:38:39] [Server thread/DEBUG] [FML]: 		(d476d1b22b218a10d845928d1665d45fce301b27) bookshelf	(Bookshelf	2.3.585)	Bookshelf-1.12.2-2.3.585.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		(f1850c39b2516232a2108a7bd84d1cb5df93b261) codechickenlib	(CodeChicken Lib	3.2.3.358)	CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		(b9f30a813bee3b9dd5652c460310cfcd54f6b7ec) llibrary	(LLibrary	1.7.19)	llibrary-1.7.19-1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		(4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8) ichunutil	(iChunUtil	7.2.2)	iChunUtil-1.12.2-7.2.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		(3ee471ded1bba54aa82f4f5ca5ca82dd67b8ef42) zawa	(Zoo and Wild Animals Mod: Rebuilt	1.12.2-1.7.0)	zawa-1.12.2-1.7.0.jar
+[22:38:39] [Server thread/DEBUG] [FML]:  	Missing Signatures:
+[22:38:39] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	custom.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2847)	custom.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		creativecoredummy	(CreativeCoreDummy	1.0.0)	minecraft.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		securitycraft	(SecurityCraft	v1.8.13.1)	[1.12.2]+SecurityCraft+v1.8.13.1.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		deconstruction	(Deconstruction Table	3.0.4)	[MC1.12.2]DeconTable-3.0.4.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		backpacks16840	(Backpacks!	3.5.8)	backpacks+1.12.2+-+3.5.8.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		biomesoplenty	(Biomes O' Plenty	7.0.1.2441)	BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		bookworm	(Bookworm API	1.12.2-2.3.0)	bookworm-1.12.2-2.3.0.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		chococraft	(Chococraft 3	0.9.8.0)	chococraft_1.12.2-0.9.8.0.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		creativecore	(CreativeCore	1.9.9)	CreativeCore_v1.9.68_mc1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		props	(Decocraft	2.6.3)	DecoCraft-Mod-1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		dynamictrees	(Dynamic Trees	1.12.2-0.9.5)	DynamicTrees-1.12.2-0.9.5.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		elevatorid	(Elevator Mod	1.4.2)	ElevatorMod-1.12.2-1.4.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		mclib	(McLib	1.0.3)	mclib-1.0.3-1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		emoticons	(Emoticons	0.3)	emoticons-0.3-1.12.2-dist.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		fastfurnace	(FastFurnace	1.3.1)	FastFurnace-1.12.2-1.3.1.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		ferdinandsflowers	(Ferdinand's Flowers	1.10.4.1)	Ferdinand's+Flowers-1.12.x-1.10.4.1.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		fossil	(Fossils and Archeology Revival	8.0.3)	fossilsarcheology-8.0.3.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		jei	(Just Enough Items	4.15.0.291)	jei_1.12.2-4.15.0.291.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		ftblib	(FTB Library	5.4.3.141)	FTBLib-5.4.3.141.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		ftbutilities	(FTB Utilities	5.4.0.107)	FTBUtilities-5.4.0.107.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		gottschcore	(GottschCore	1.8.0)	GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		waila	(Waila	1.8.26)	Hwyla-1.8.26-B41_1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		infernalmobs	(Infernal Mobs	1.7.6)	InfernalMobs-1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		journeymap	(JourneyMap	1.12.2-5.5.5)	journeymap-1.12.2-5.5.5.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		malisiscore	(MalisisCore	1.12.2-6.5.1-SNAPSHOT)	malisiscore-1.12.2-6.5.1.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		malisisdoors	(MalisisDoors	1.12.2-7.3.0)	malisisdoors-1.12.2-7.3.0.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		mca	(Minecraft Comes Alive	6.0.1)	MCA-1.12.2-6.0.1-universal.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		mmm	(mmm	1.0.8)	mutatedmobs-1.0.8.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		playerrevive	(Player Revive	1.0)	PlayerRevive_v1.2.26_mc1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		rustic	(Rustic	1.1.1)	rustic-1.1.1.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		spartanshields	(Spartan Shields	1.5.4)	SpartanShields-1.12.2-1.5.4.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		tombstone	(Corail Tombstone	3.5.8)	tombstone-3.5.8-1.12.2.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		treasure2	(Treasure2!	1.5.1)	Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+[22:38:39] [Server thread/DEBUG] [FML]: 		supertools	(Vanilla+ Tools	1.12.2-null)	VanillaPlusTools-1.2.jar
+[22:38:39] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:38:39] [Server thread/INFO] [FML]: Found 1319 ObjectHolder annotations
+[22:38:39] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:38:39] [Server thread/INFO] [FML]: Found 1 ItemStackHolder annotations
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[22:38:39] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.078s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod creativecoredummy
+[22:38:39] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod creativecoredummy
+[22:38:39] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - CreativeCoreDummy took 0.000s
+[22:38:39] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod securitycraft
+[22:38:39] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:38:39] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2847",
+    "1.12.2-recommended": "14.23.5.2768",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.1.96",
+    "1.14.4-recommended": "28.1.0",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[22:38:39] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[22:38:39] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[22:38:40] [Forge Version Check/DEBUG] [forge.VersionCheck]: [tombstone] Received version check data:
+{
+	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
+	"promos": {
+		"1.14.4-latest": "4.1.7",
+		"1.14.4-recommended": "4.1.5",
+		"1.14.3-latest": "3.7.1",
+		"1.14.3-recommended": "3.7.1",
+		"1.14.2-latest": "3.6.2",
+		"1.14.2-recommended": "3.6.2",
+		"1.13.2-latest": "3.5.2",
+		"1.13.2-recommended": "3.5.2",
+		"1.12.2-latest": "3.6.2",
+		"1.12.2-recommended": "3.6.0",
+		"1.12.1-latest": "2.9.9",
+		"1.12.1-recommended": "2.9.9",
+		"1.11.2-latest": "2.9.0.1",
+		"1.11.2-recommended": "2.9.0.1",
+		"1.10.2-latest": "2.9.4",
+		"1.10.2-recommended": "2.9.4",
+		"1.9.4-latest": "1.4.1",
+		"1.9.4-recommended": "1.4.1",
+		"1.8.9-latest": "1.4.1",
+		"1.8.9-recommended": "1.4.1"
+	},
+	"1.14.4": {
+		"4.1.7": "command to teleport respawn + tablet, new texture for ghost & guis, fix #97, fix #98",
+		"4.1.6": "multiple changes (see changelog)",
+		"4.1.5": "reworks the guis, scroll of reach and some improvements",
+		"4.1.4": "fix #92 (command tbgui on server), chinese lang (by Aikinitt)",
+		"4.1.3": "update for forge 28.1.0 (required changes)",
+		"4.1.2": "improve teleportation & backup mechanics, tweak shadow step",
+		"4.1.1": "improvements (see changelog), fix #83",
+		"4.1.0": "config in game (see changelog)",
+		"4.0.0": "new grave models (see changelog)",
+		"3.7.5": "update to forge 45 (incompatible changes), compat CosmeticArmorReworked, adapt command tbsiege, solves #75, fix #78",
+		"3.7.4": "support to auto-equip special slots from the mod Curio",
+		"3.7.3": "fix #77 : praying with ankh could disconnect while under the effect Bad Omen",
+		"3.7.2": "first release for 1.14.4 & fix #73"
+	},
+	"1.14.3": {
+		"3.7.1": "fix #70, #71 & the number of enchantments extracted"
+	},
+	"1.14.2": {
+		"3.6.2": "custom triggers for advancements(#68), support in JEI, fix about potion type"
+	},
+	"1.13.2": {
+		"3.5.2": "improves the command to revive tamed creatures"
+	},
+	"1.12.2": {
+		"3.6.2": "command to teleport respawn + tablet, new texture for ghost & guis, fix #98",
+		"3.6.1": "multiple changes (see changelog)",
+		"3.6.0": "relook the knowledge gui, scroll of reach & fix nightvision with True Sight/Ghostly Shape",
+		"3.5.9": "compat Cannibalism, chinese lang (by Aikinitt) & config can disable the enchanted grave's key",
+		"3.5.8": "fix #86, tweak shadow step & allow to recover a backup for an offline player",
+		"3.5.7": "some improvements (see changelog)",
+		"3.5.6": "compat for Powersuits, Wings and improve Baubles compat",
+		"3.5.5": "custom trigger for advancements (#68)",
+		"3.5.4": "fix #66 & #67",
+		"3.5.3": "some improvements (see changelog)",
+		"3.5.2": "some improvements and fix #63 (ankh interaction)",
+		"3.5.1": "fix #61, improve the way to pray with the receptacle in offhand & config for creatures not capturable with receptacle",
+		"3.5.0": "new item Familiar Receptacle, command to revive familiars and merge some items with datafixer",
+		"3.4.1": "fix lost tablets can't wake up (since 3.3.4)"
+	},
+	"1.12.1": {
+		"2.9.9": "only fix and change the grave ground with vanilla texture"
+	},
+	"1.11.2": {
+		"2.9.0.1": "fix the achievements about prevent death with voodoo poppets & use some magic scrolls"
+	},
+	"1.10.2": {
+		"2.9.4": "book of disenchantment, auto-respawn, backup, auto-equip BetweenLands & skip anti griefing mods"
+	},
+	"1.9.4": {
+		"1.4.1": "current last version for 1.9.4"
+	},
+	"1.8.9": {
+		"1.4.1": "current last version for 1.8.9"
+	}
+}
+
+[22:38:40] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Found status: OUTDATED Target: 3.6.0
+[22:38:40] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[22:38:40] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod securitycraft
+[22:38:40] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - SecurityCraft took 0.576s
+[22:38:40] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod deconstruction
+[22:38:40] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod deconstruction
+[22:38:40] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Deconstruction Table took 0.005s
+[22:38:40] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod backpacks16840
+[22:38:40] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod backpacks16840
+[22:38:40] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Backpacks! took 0.052s
+[22:38:40] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod biomesoplenty
+[22:38:40] [Server thread/TRACE] [FML]: Automatically registered mod biomesoplenty entity mudball as biomesoplenty:mudball
+[22:38:40] [Server thread/TRACE] [FML]: Automatically registered mod biomesoplenty entity bop_boat as biomesoplenty:bop_boat
+[22:38:40] [Server thread/TRACE] [FML]: Automatically registered mod biomesoplenty entity wasp as biomesoplenty:wasp
+[22:38:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod biomesoplenty
+[22:38:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Biomes O' Plenty took 1.159s
+[22:38:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod bookshelf
+[22:38:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod bookshelf
+[22:38:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Bookshelf took 0.002s
+[22:38:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod bookworm
+[22:38:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod bookworm
+[22:38:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Bookworm API took 0.000s
+[22:38:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod chococraft
+[22:38:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod chococraft
+[22:38:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Chococraft 3 took 0.022s
+[22:38:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod codechickenlib
+[22:38:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod codechickenlib
+[22:38:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - CodeChicken Lib took 0.029s
+[22:38:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod creativecore
+[22:38:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod creativecore
+[22:38:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - CreativeCore took 0.000s
+[22:38:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod props
+[22:38:41] [Server thread/TRACE] [FML]: Automatically registered mod props entity FakeChairEntity as props:chair
+[22:38:41] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Original locale was en, switching to Locale.US
+[22:38:41] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Locale is now en_US
+[22:38:41] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Locale was restored to en
+[22:38:43] [Server thread/DEBUG] [FML]: Bar Finished: Loading models took 1.822s
+[22:38:43] [Server thread/DEBUG] [FML]: Bar Finished: Loading models took 1.823s
+[22:40:41] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:41:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

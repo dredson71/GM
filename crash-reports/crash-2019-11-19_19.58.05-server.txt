@@ -1,0 +1,181 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.0.29.jar)
+  BCModPlugin (backpacks+1.12.2+-+3.5.8.jar)
+  CreativePatchingLoader (CreativeCore_v1.9.68_mc1.12.2.jar)
+  MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  McLib core mod (mclib-1.0.3-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// I bet Cylons wouldn't have this problem.
+
+Time: 11/19/19 7:58 PM
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Fossils and Archeology Revival (fossil)
+Caused by: java.lang.NoClassDefFoundError: fossilsarcheology/server/entity/prehistoric/EntityAnkylosaurus
+	at fossilsarcheology.server.entity.prehistoric.PrehistoricEntityType.<clinit>(PrehistoricEntityType.java:47)
+	at fossilsarcheology.server.entity.FAEntityRegistry.register(FAEntityRegistry.java:18)
+	at fossilsarcheology.server.ServerProxy.onPreInit(ServerProxy.java:187)
+	at fossilsarcheology.Revival.onPreInit(Revival.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: fossilsarcheology.server.entity.prehistoric.EntityAnkylosaurus
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 39 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer@7d1e45e6 from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:260)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 41 more
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOfRange(Arrays.java:3664)
+	at java.lang.String.<init>(String.java:207)
+	at org.objectweb.asm.ClassReader.a(Unknown Source)
+	at org.objectweb.asm.ClassReader.readUTF8(Unknown Source)
+	at org.objectweb.asm.ClassReader.readClass(Unknown Source)
+	at org.objectweb.asm.ClassReader.a(Unknown Source)
+	at org.objectweb.asm.ClassReader.b(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer.transform(EventSubscriberTransformer.java:45)
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at fossilsarcheology.server.entity.prehistoric.PrehistoricEntityType.<clinit>(PrehistoricEntityType.java:47)
+	at fossilsarcheology.server.entity.FAEntityRegistry.register(FAEntityRegistry.java:18)
+	at fossilsarcheology.server.ServerProxy.onPreInit(ServerProxy.java:187)
+	at fossilsarcheology.Revival.onPreInit(Revival.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.4.0-142-generic
+	Java Version: 1.8.0_222, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 80758232 bytes (77 MB) / 996147200 bytes (950 MB) up to 996147200 bytes (950 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 44 mods loaded, 43 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version               | Source                                        | Signature                                |
+	|:----- |:----------------- |:--------------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft         | 1.12.2                | minecraft.jar                                 | None                                     |
+	| LCH   | mcp               | 9.42                  | minecraft.jar                                 | None                                     |
+	| LCH   | FML               | 8.0.99.99             | custom.jar                                    | None                                     |
+	| LCH   | forge             | 14.23.5.2847          | custom.jar                                    | None                                     |
+	| LCH   | creativecoredummy | 1.0.0                 | minecraft.jar                                 | None                                     |
+	| LCH   | securitycraft     | v1.8.13.1             | [1.12.2]+SecurityCraft+v1.8.13.1.jar          | None                                     |
+	| LCH   | deconstruction    | 3.0.4                 | [MC1.12.2]DeconTable-3.0.4.jar                | None                                     |
+	| LCH   | backpacks16840    | 3.5.8                 | backpacks+1.12.2+-+3.5.8.jar                  | None                                     |
+	| LCH   | baubles           | 1.5.2                 | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCH   | biomesoplenty     | 7.0.1.2441            | BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar | None                                     |
+	| LCH   | bookshelf         | 2.3.585               | Bookshelf-1.12.2-2.3.585.jar                  | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | bookworm          | 1.12.2-2.3.0          | bookworm-1.12.2-2.3.0.jar                     | None                                     |
+	| LCH   | chococraft        | 0.9.8.0               | chococraft_1.12.2-0.9.8.0.jar                 | None                                     |
+	| LCH   | codechickenlib    | 3.2.3.358             | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | creativecore      | 1.9.9                 | CreativeCore_v1.9.68_mc1.12.2.jar             | None                                     |
+	| LCH   | props             | 2.6.3                 | Decocraft-2.6.3_1.12.2.jar                    | None                                     |
+	| LCH   | dynamictrees      | 1.12.2-0.9.5          | DynamicTrees-1.12.2-0.9.5.jar                 | None                                     |
+	| LCH   | elevatorid        | 1.4.2                 | ElevatorMod-1.12.2-1.4.2.jar                  | None                                     |
+	| LCH   | mclib             | 1.0.3                 | mclib-1.0.3-1.12.2.jar                        | None                                     |
+	| LCH   | emoticons         | 0.3                   | emoticons-0.3-1.12.2-dist.jar                 | None                                     |
+	| LCH   | fastfurnace       | 1.3.1                 | FastFurnace-1.12.2-1.3.1.jar                  | None                                     |
+	| LCH   | ferdinandsflowers | 1.10.4.1              | Ferdinand's+Flowers-1.12.x-1.10.4.1.jar       | None                                     |
+	| LCH   | llibrary          | 1.7.19                | llibrary-1.7.19-1.12.2.jar                    | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCE   | fossil            | 8.0.3                 | fossilsarcheology-8.0.3.jar                   | None                                     |
+	| LC    | jei               | 4.15.0.291            | jei_1.12.2-4.15.0.291.jar                     | None                                     |
+	| LC    | ftblib            | 5.4.3.141             | FTBLib-5.4.3.141.jar                          | None                                     |
+	| LC    | ftbutilities      | 5.4.0.107             | FTBUtilities-5.4.0.107.jar                    | None                                     |
+	| LC    | gottschcore       | 1.8.0                 | GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar | None                                     |
+	| LC    | waila             | 1.8.26                | Hwyla-1.8.26-B41_1.12.2.jar                   | None                                     |
+	| LC    | ichunutil         | 7.2.2                 | iChunUtil-1.12.2-7.2.2.jar                    | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LC    | infernalmobs      | 1.7.6                 | InfernalMobs-1.12.2.jar                       | None                                     |
+	| LC    | journeymap        | 1.12.2-5.5.5          | journeymap-1.12.2-5.5.5.jar                   | None                                     |
+	| LC    | malisiscore       | 1.12.2-6.5.1-SNAPSHOT | malisiscore-1.12.2-6.5.1.jar                  | None                                     |
+	| LC    | malisisdoors      | 1.12.2-7.3.0          | malisisdoors-1.12.2-7.3.0.jar                 | None                                     |
+	| LC    | mca               | 6.0.1                 | MCA-1.12.2-6.0.1-universal.jar                | None                                     |
+	| LC    | mmm               | 1.0.8                 | mutatedmobs-1.0.8.jar                         | None                                     |
+	| LC    | playerrevive      | 1.0                   | PlayerRevive_v1.2.26_mc1.12.2.jar             | None                                     |
+	| LC    | rustic            | 1.1.1                 | rustic-1.1.1.jar                              | None                                     |
+	| LC    | spartanshields    | 1.5.4                 | SpartanShields-1.12.2-1.5.4.jar               | None                                     |
+	| LC    | tombstone         | 3.5.8                 | tombstone-3.5.8-1.12.2.jar                    | None                                     |
+	| LC    | treasure2         | 1.5.1                 | Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar   | None                                     |
+	| LC    | zawa              | 1.12.2-1.7.0          | zawa-1.12.2-1.7.0.jar                         | 3ee471ded1bba54aa82f4f5ca5ca82dd67b8ef42 |
+	| LC    | supertools        | 1.12.2-null           | VanillaPlusTools-1.2.jar                      | None                                     |
+	| UD    | mclib_core        | 1.0.3                 | minecraft.jar                                 | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+CTMCorePlugin (CTM-MC1.12.2-1.0.0.29.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+BCModPlugin (backpacks+1.12.2+-+3.5.8.jar)
+  brad16840.core.ClassTransformer
+CreativePatchingLoader (CreativeCore_v1.9.68_mc1.12.2.jar)
+  
+MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  
+McLib core mod (mclib-1.0.3-1.12.2.jar)
+  mchorse.mclib.core.McLibCMClassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

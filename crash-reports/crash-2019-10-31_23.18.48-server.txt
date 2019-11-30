@@ -1,0 +1,48 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 10/31/19 11:18 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [3.1.9,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod avaritia (Avaritia) requires [codechickenlib@[3.1.9,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.4.0-142-generic
+	Java Version: 1.8.0_222, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 857837448 bytes (818 MB) / 1021313024 bytes (974 MB) up to 1021313024 bytes (974 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID             | Version      | Source                                 | Signature |
+	|:----- |:-------------- |:------------ |:-------------------------------------- |:--------- |
+	| L     | minecraft      | 1.12.2       | minecraft.jar                          | None      |
+	| L     | mcp            | 9.42         | minecraft.jar                          | None      |
+	| L     | FML            | 8.0.99.99    | custom.jar                             | None      |
+	| L     | forge          | 14.23.5.2847 | custom.jar                             | None      |
+	| L     | securitycraft  | v1.8.13.1    | [1.12.2]+SecurityCraft+v1.8.13.1.jar   | None      |
+	| L     | deconstruction | 3.0.4        | [MC1.12.2]DeconTable-3.0.4.jar         | None      |
+	| L     | avaritia       | 3.3.0        | Avaritia-1.12.2-3.3.0.33-universal.jar | None      |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
